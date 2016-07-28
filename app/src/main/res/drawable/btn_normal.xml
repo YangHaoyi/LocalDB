@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- button color -->
+    <item>
+        <shape>
+            <solid android:color="#1FA67B" />
+            <corners android:topLeftRadius="10px"  android:bottomLeftRadius="10px"   android:topRightRadius="10px" android:bottomRightRadius="10px"/>
+        </shape>
+    </item>
+    <!-- main background -->
+    <item
+         android:left="5px"
+         android:top="5px"
+        android:bottom="5px"
+        android:right="5px">
+        <shape>
+            <solid android:color="#1FA67B" />
+            <padding android:left="6dp" android:top="6dp" android:right="6dp"  
+                 android:bottom="6dp" /> 
+            <corners android:topLeftRadius="10px"  android:bottomLeftRadius="10px"   android:topRightRadius="10px" android:bottomRightRadius="10px"/>
+        </shape>
+    </item>
+
+</layer-list>

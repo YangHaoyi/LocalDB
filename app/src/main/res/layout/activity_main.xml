@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F9F9F9"
+    tools:context="com.yhy.loginsave.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:background="#1FA67B">
+
+    </TextView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="手机号"
+        android:textColor="@color/mainColor"
+        android:textSize="14dp"
+        android:layout_marginLeft="15dp"/>
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:hint="请输入手机号"
+        android:textCursorDrawable="@null"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:inputType="phone"
+        android:digits="1234567890"
+        android:numeric="integer"
+        android:maxLength="11"
+        />
+</LinearLayout>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/bigButtonWithCorner"
+        android:text="菜单"/>
+    <ListView
+        android:id="@+id/userList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
